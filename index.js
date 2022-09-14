@@ -42,7 +42,7 @@ const questions = [
   {
     type: "licenseList",
     name: "licenseType",
-    message: "What is your project's description?",
+    message: "What is your license type?",
     choices: ["mit", "Apache-2.0", "BSD", "Creative Commons"],
     when: ({ license }) => {
       if (license) {
